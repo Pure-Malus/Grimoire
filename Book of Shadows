@@ -1,9 +1,9 @@
-	>>>>>><<<<<<>>>>>>QUICK REFERENCE SECTION<<<<<<>>>>>><<<<<<
+>>>>>><<<<<<>>>>>>QUICK REFERENCE SECTION<<<<<<>>>>>><<<<<<
 
 ENUMERATION
 Unix
-  hostname 		//gets the hostname
-	whoami	or  id		//current user account
+hostname 		//gets the hostname
+whoami	or  id		//current user account
   ps -ef			//get prosseses 
   netstat -anptu | egrep "LIST|udp" 		//TCP and UDP ports, include process information. Only display Listnening state or udp
   chkconfig 		//display what services have been enabled
